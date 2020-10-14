@@ -8,10 +8,8 @@ public class PC {
 	private CPU cpu;
 	private HardDisk HD;
 	public double money;
-	public PC(){
-		
-	}
-	public PC(CPU cpu,HardDisk HD){
+
+	public void PC(CPU cpu,HardDisk HD){
 		this.cpu=cpu;
 		this.HD=HD;
 	}

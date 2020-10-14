@@ -3,9 +3,7 @@ package Project;
 public class CPU {
 	private int speed;
 	private String brand;
-	public CPU(){
-		
-	}
+
 	public CPU(int speed){
 		this.speed=speed;
 	}
